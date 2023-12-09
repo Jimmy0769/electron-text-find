@@ -1,0 +1,7 @@
+node_modules/
+yarn.lock
+demo/
+example/
+example2/
+*.gif
+*.png

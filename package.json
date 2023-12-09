@@ -1,6 +1,6 @@
 {
   "name": "electron-text-find",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "main": "main.js",
   "author": "Yezhuming",
   "license": "MIT",
@@ -14,5 +14,16 @@
   },
   "dependencies": {
     "@electron/remote": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yezhuming/electron-text-find.git"
+  },
+  "keywords": [
+    "find",
+    "electron",
+    "search",
+    "match",
+    "text"
+  ]
 }
