@@ -2,8 +2,9 @@
 
 简体中文 | [English](./README.md)
 
-## 修复问题
+## 新内容
 
+- 兼容 Electron27 版本
 - 修复 example2 的 webview 无法加载问题
 - 修复重复搜索同样的文本无响应问题
   ![sameText](./sameText.gif)

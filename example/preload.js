@@ -14,7 +14,3 @@ window.addEventListener('DOMContentLoaded', () => {
 ipcRenderer.on('on-find', () => {
   findInPage.openFindWindow();
 });
-
-contextBridge.exposeInMainWorld('versions', {
-  
-})

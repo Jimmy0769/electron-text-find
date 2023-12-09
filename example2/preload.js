@@ -28,8 +28,6 @@ window.addEventListener('DOMContentLoaded', () => {
   })
 });
 
-
-
 ipcRenderer.on('on-find', (e, args) => {
   findInPage ? findInPage.openFindWindow() : ''
 })

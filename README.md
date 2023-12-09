@@ -1,11 +1,14 @@
 # electron-text-find
 
+Forked from [TheoXiong/electron-find](https://github.com/TheoXiong/electron-find)
+
 English | [简体中文](./README.zh-CN.md)
 
-## Fixed
+## New
 
+- Support Electron27
 - Fix the problem that the webview of example2 cannot be loaded
-- fixed the problem of unresponsiveness when searching the same text repeatedly
+- Fixed the problem of unresponsiveness when searching the same text repeatedly
   ![sameText](./sameText.gif)
 
 ## Introduction
