@@ -1,8 +1,8 @@
 {
   "name": "electron-text-find",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "main.js",
-  "author": "Yezhuming",
+  "author": "Jimmyy",
   "license": "MIT",
   "scripts": {
     "dev": "electron example/main.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yezhuming/electron-text-find.git"
+    "url": "https://github.com/Jimmy0769/electron-text-find.git"
   },
   "keywords": [
     "find",
