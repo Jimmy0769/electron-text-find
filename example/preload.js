@@ -1,9 +1,9 @@
-const { contextBridge, ipcRenderer } = require('electron');
-const { FindInPage } = require('../src/index.js')
-const { getCurrentWebContents } = require('@electron/remote')
+const { contextBridge, ipcRenderer } = require("electron");
+const { FindInPage } = require("../src/index.js");
+const { getCurrentWebContents } = require("@electron/remote");
 let findInPage;
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
   findInPage = new FindInPage(getCurrentWebContents(), {
     preload: true,
     offsetTop: 6,
@@ -11,6 +11,6 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-ipcRenderer.on('on-find', () => {
+ipcRenderer.on("open-find", () => {
   findInPage.openFindWindow();
 });
