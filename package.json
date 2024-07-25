@@ -1,6 +1,6 @@
 {
   "name": "electron-text-find",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "author": "Jimmyy",
   "license": "MIT",
